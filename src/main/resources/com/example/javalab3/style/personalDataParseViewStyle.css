@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'Montserrat Medium';
+    src: url('../fonts/Montserrat-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'Montserrat Bold';
+    src: url('../fonts/Montserrat-Bold.ttf');
+}
+
+.parseButton {
+    -fx-text-fill: #2D3250;
+    -fx-background-color: #F8B179;
+    -fx-background-radius: 5;
+}
+
+.header {
+    -fx-font-family: 'Montserrat Bold';
+    -fx-text-fill: #FFFFFF;
+    -fx-font-size: 20;
+}
+
+.text {
+    -fx-font-family: 'Montserrat Medium';
+    -fx-text-fill: #FFFFFF;
+    -fx-font-size: 10;
+}
+
+.outputText {
+    -fx-text-fill: #FFFFFF;
+    -fx-font-size: 15;
+}
+.input {
+    -fx-background-color: #424669;
+    -fx-text-fill: #FFFFFF;
+    -fx-border-radius: 5;
+    -fx-font-size: 15;
+}
+
+.mainPane {
+    -fx-background-color: #2D3250;
+}
+
+.errorText {
+    -fx-text-fill: #F8B179;
+}
